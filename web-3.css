@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.head {
+  width: 100%;
+  height: 90px;
+  background-color: rgb(26, 174, 184);
+}
+
+.wraped {
+  width: 98%;
+  margin: auto;
+}
+.icon {
+  line-height: 80px;
+  width: 21%;
+  float: left;
+}
+
+.icon a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: blue;
+  text-transform: capitalize;
+}
+
+.txt {
+  width: 50%;
+  float: left;
+}
+.txt ul {
+  line-height: 80px;
+  margin-left: 25%;
+}
+.txt ul li {
+  text-transform: capitalize;
+  display: inline;
+}
+
+.txt ul li a {
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 2%;
+  border-radius: 30px 12px 20px;
+}
+.txt ul li a:hover {
+  background-color: orange;
+}
+
+.login {
+  width: 20%;
+  float: right;
+}
+.login a {
+  text-decoration: none;
+  font-size: 2rem;
+  line-height: 80px;
+  padding: 4%;
+  margin-left: 150px;
+  text-transform: capitalize;
+  border-radius: 30px 12px 20px;
+}
+.login a:hover {
+  background-color: orange;
+  color: rgb(14, 27, 201);
+}
+
+.pic {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.pic img {
+  width: 100%;
+  height: 1000px;
+}
+
+.text {
+  padding: 10%;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: rgb(255, 255, 255);
+}
+h1 {
+  font-size: 4rem;
+  text-transform: capitalize;
+  word-spacing: 10px;
+  color: brown;
+}
+p {
+  margin-left: 80px;
+  font-size: 1.5rem;
+}
+
+
+
+
+
+@media (max-width: 1080px) {
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+.head {
+  width: 100%;
+  height: 120px;
+  background-color: red;
+}
+
+.wraped {
+  width: 98%;
+  margin: auto;
+}
+.icon {
+  line-height: 80px;
+  width: 21%;
+  float: left;
+}
+
+.icon a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: blue;
+  text-transform: capitalize;
+}
+
+.txt {
+  width: 50%;
+  float: left;
+}
+.txt ul {
+  line-height: 80px;
+  margin-left: 25%;
+}
+.txt ul li {
+  text-transform: capitalize;
+  display: inline;
+}
+
+.txt ul li a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  padding: 2%;
+  border-radius: 30px 12px 20px;
+}
+.txt ul li a:hover {
+  background-color: orange;
+}
+
+.login {
+  width: 20%;
+  float: right;
+}
+.login a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  line-height: 80px;
+  padding: 4%;
+  margin-left: 100px;
+  text-transform: capitalize;
+  border-radius: 30px 12px 20px;
+}
+.login a:hover {
+  background-color: orange;
+  color: rgb(14, 27, 201);
+}
+
+.pic {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.pic img {
+  width: 100%;
+  height: 680px;
+}
+
+.text {
+  padding: 10%;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: rgb(255, 255, 255);
+}
+h1 {
+  font-size: 2.4rem;
+  text-transform: capitalize;
+  word-spacing: 10px;
+  color: brown;
+}
+p {
+  margin-left: 80px;
+  font-size: 1rem;
+}
+
+
+
+
+
+@media (max-width: 650px) {
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+.head {
+  width: 100%;
+  height: 90px;
+  background-color: orange;
+}
+
+.wraped {
+  width: 99%;
+  margin: auto;
+}
+.icon {
+  line-height: 80px;
+  width: 35%;
+  float: left;
+}
+
+.icon a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: blue;
+  text-transform: capitalize;
+}
+
+.txt {
+  width: 58%;
+  float: left;
+}
+.txt ul {
+  line-height: 80px;
+  margin-left: 25%;
+}
+.txt ul li {
+  text-transform: capitalize;
+  display: inline;
+}
+
+.txt ul li a {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 2%;
+  border-radius: 30px 12px 20px;
+}
+.txt ul li a:hover {
+  background-color: orange;
+}
+
+.login {
+  width: 7%;
+  float: right;
+}
+.login a {
+  text-decoration: none;
+  font-size: 6px;
+  line-height: 80px;
+  padding: 4%;
+  margin-left: 150px;
+  text-transform: capitalize;
+  border-radius: 30px 12px 20px;
+}
+.login a:hover {
+  background-color: orange;
+  color: rgb(14, 27, 201);
+}
+
+.pic {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.pic img {
+  width: 100%;
+  height: 1000px;
+}
+
+.text {
+  padding: 10%;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: rgb(255, 255, 255);
+}
+h1 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  word-spacing: 10px;
+  color: brown;
+}
+p {
+  margin-left: 80px;
+  font-size: 1rem;
+}
+
