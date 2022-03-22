@@ -1,0 +1,310 @@
+*{margin :0;
+padding:0;
+}
+#body{
+background-color:grey;margin:0px;padding:0px;width:100%;height:150px;}
+
+
+#logo{weight:125px;
+height:125px;
+margin:10px 10px 10px 10px;}
+
+
+#text{
+line-height: 100px;
+position:absolute;
+float:left;
+color:orange;
+font-family: 'Supermercado One', cursive;
+text-shadow: 4px 3px 12px rgb(17, 0, 255);
+text-transform: uppercase;
+  
+display: inline;
+
+letter-spacing:5px;
+}
+
+
+.text {
+ width:70%;float: right;
+}
+
+.text ul {text-align: right; 
+}
+.text ul li { display: inline; line-height: 100px;
+}
+.text ul li a {
+  font-size: 2rem;
+  text-decoration: none;
+  color:white;
+font-family: 'Supermercado One', cursive;
+  padding: 1%;
+  border-radius: 25px;
+  text-transform: uppercase;
+}
+.text ul li a:hover {
+  background-color: rgb(232, 241, 232);
+  color: red;
+}
+
+
+#body2{
+margin:0px;
+padding:0px;
+}
+
+
+#bg1{
+width:100%;
+height:780px;
+margin:0px;
+padding:0px;}
+   
+
+.btext { padding: 10%;
+ position: absolute;
+ top: 20%; left: 15%;
+
+text-transform: uppercase;
+color: rgb(255, 255, 255);
+
+letter-spacing:4px;
+}
+
+.btext h1{ font-size: 5rem;
+font-family: 'gigi', Gigi;
+text-align:center;
+}
+
+.btext p{
+ font-size: 1.82rem;
+font-family: 'mistral';}
+
+
+
+
+
+.login {
+padding:30%;
+ position: absolute;
+ top: 20%; left: 15%;
+text-transform: uppercase;
+color: rgb(255, 255, 255);
+
+letter-spacing:4px;
+}
+
+.login a {
+  text-decoration: none;
+  font-size: 2rem;
+padding:10px;
+  background-color: orange;
+  text-transform: uppercase;
+  border-radius: 30px;
+}
+.login a:hover {
+  background-color: green;
+  color: rgb(14, 27, 201);
+}
+
+@media (max-width: 1080px) {
+
+
+
+#logo{weight:110px;
+height:110px;
+}
+
+
+#text{
+line-height: 65px;
+position:absolute;
+float:left;margin-left:75px;
+color:orange;
+font-family: 'Supermercado One', cursive;
+text-shadow: 4px 3px 12px rgb(17, 0, 255);
+text-transform: uppercase;
+  
+display: inline;
+
+letter-spacing:3px;
+}
+
+
+.text {
+ width:70%;float: right; margin-top: 25px;
+}
+
+.text ul {text-align: left; 
+}
+.text ul li { display: inline; line-height: 145px; 
+}
+.text ul li a {
+  font-size: 1.7rem;
+  text-decoration: none;
+  color:white;
+font-family: 'Supermercado One', cursive;
+
+  border-radius: 25px;
+  text-transform: uppercase;
+}
+.text ul li a:hover {
+  background-color: rgb(232, 241, 232);
+  color: red;
+}
+
+
+#body2{
+margin:0px;
+padding:0px;
+}
+
+
+#bg1{
+width:100%;
+height:780px;
+ margin-top: -25px;
+padding:0px;}
+   
+
+.btext { padding: 10%;
+ position: absolute;
+ top: 20%; left: 15%;
+
+text-transform: uppercase;
+color: rgb(255, 255, 255);
+
+letter-spacing:4px;
+}
+
+.btext h1{ font-size: 3rem;
+font-family: 'gigi', Gigi;
+text-align:center;
+}
+
+.btext p{
+ font-size: 1.4rem;
+font-family: 'mistral';}
+
+
+
+
+
+.login {
+padding:20%;
+ position: absolute;
+ top: 30%; left: 15%;
+text-transform: uppercase;
+color: rgb(255, 255, 255);
+
+letter-spacing:4px;
+}
+
+.login a {
+  text-decoration: none;
+  font-size: 2rem;
+padding:10px;
+  background-color: orange;
+  text-transform: uppercase;
+  border-radius: 30px;
+}
+.login a:hover {
+  background-color: green;
+  color: rgb(14, 27, 201);
+}
+
+
+
+
+
+
+
+@media (max-width: 650px) {
+
+#body{
+background-color:grey;margin:0px;padding:0px;width:100%;height:200px;}
+
+
+
+#logo{weight:100px;
+height:100px;
+}
+
+
+#text{
+line-height: 60px;
+
+float:left;margin-left:55px;
+color:red;
+
+letter-spacing:1px;
+}
+
+
+.text {
+ width:70%;float: right; margin-top: 120px;
+}
+
+.text ul {text-align: left; 
+}
+.text ul li { display: inline; line-height: 60px; 
+}
+.text ul li a {
+  font-size: 1.7rem;
+}
+
+
+#bg1{
+width:100%;
+height:780px;
+ margin-top: -48px;
+padding:0px;}
+   
+
+.btext { padding: 10%;
+ position: absolute;
+ top: 20%; left: 15%;
+
+text-transform: uppercase;
+color: rgb(255, 255, 255);
+
+letter-spacing:4px;
+}
+
+.btext h1{ font-size: 3rem;
+font-family: 'gigi', Gigi;
+text-align:center;
+}
+
+.btext p{
+ font-size: 1.4rem;
+font-family: 'mistral';}
+
+
+
+
+
+.login {
+padding:20%;
+ position: absolute;
+ top: 50%; left: 15%;
+text-transform: uppercase;
+color: rgb(255, 255, 255);
+
+letter-spacing:4px;
+}
+
+.login a {
+  text-decoration: none;
+  font-size: 1.6rem;
+padding:15px;
+  background-color: orange;
+  text-transform: uppercase;
+  border-radius: 30px;
+}
+.login a:hover {
+  background-color: green;
+  color: rgb(14, 27, 201);
+}
+
+
